@@ -127,7 +127,7 @@ _install() {
 }
 
 package_mesa-asahi() {
-  provides=('mesa-libgl' 'opengl-driver' 'mesa' 'mesa-asahi' 'vulkan-asahi' 'vulkan-driver' 'opencl-driver' 'opencl-rusticl-mesa')
+  provides=('mesa-libgl' 'opengl-driver' 'mesa' 'mesa-asahi-edge' 'vulkan-asahi' 'vulkan-driver' 'opencl-driver' 'opencl-rusticl-mesa')
   conflicts=('mesa-libgl' 'mesa' 'mesa-asahi-edge' 'vulkan-swrast')
 
   if [[ "$CARCH" == "x86_64" ]]; then
